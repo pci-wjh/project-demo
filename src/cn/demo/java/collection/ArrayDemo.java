@@ -7,7 +7,7 @@ import java.util.List;
 public class ArrayDemo {
 	
 	public static void main(String[] args) {
-		/*int datas[] = new int[10];
+		int datas[] = new int[10];
 		for(int i=0;i<10;i++){
 			datas[i]=(int) (Math.random()*10);
 			System.out.print(datas[i]+" ");
@@ -21,15 +21,15 @@ public class ArrayDemo {
 		}
 		
 		System.out.println(dataList);
-		System.out.println(sum(dataList));*/
+		System.out.println(sum(dataList));
 		
 		//一个班级最多容纳60个学生
-        Integer [] stuNums= new Integer[60];
-        //stuNums初始化......
-        //偶尔一个班级可以容纳80人，数组加长
-        stuNums=expandCapacity(stuNums,80);
-        /* 重新初始化超过限额的20人...... */
-        System.out.println(stuNums.length);
+	        Integer [] stuNums= new Integer[60];
+	        //stuNums初始化......
+	        //偶尔一个班级可以容纳80人，数组加长
+	        stuNums=expandCapacity(stuNums,80);
+	        /* 重新初始化超过限额的20人...... */
+	        System.out.println(stuNums.length);
 
 	}
 	
